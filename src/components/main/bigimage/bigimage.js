@@ -8,7 +8,7 @@ class Bigimage extends Component{
                 <h1>
                     مهراب کردبچه
                 </h1>
-                <img src={mehrabImage}></img>
+                <img src={mehrabImage} className='big-image'></img>
             </div>
         ) 
     }
