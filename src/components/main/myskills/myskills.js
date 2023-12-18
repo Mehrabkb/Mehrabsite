@@ -7,6 +7,7 @@ class myskills extends Component{
         return (
             <div className="myskills-container">
                 <h2>توانایی های من </h2>
+                <hr/>
                 <div className="myskill-item">
                     <h3>PHP , MYSQL</h3>
                     <ProgressBar completed={89} />

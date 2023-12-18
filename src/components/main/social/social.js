@@ -10,7 +10,8 @@ class Social extends Component{
         return (
             <div className="social-container">
                 <h2>
-                    شبکه های اجتماعی 
+                    شبکه های اجتماعی
+                    <hr/>
                 </h2>
                 <ul className="list">
                     <li>

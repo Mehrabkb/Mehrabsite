@@ -9,8 +9,16 @@ class Header extends Component {
       fullDate : []
     }
   }
+  btnMenuClick(){
+    let menu = document.querySelector('div.navigation-menu');
+    menu.classList.add('show');;
+  }
+  closeMenu(){
+    let menu = document.querySelector('div.navigation-menu');
+    menu.classList.remove('show')
+  }
   componentDidMount(){
-    setInterval(() => {      
+    setInterval(() => {
       fetch('https://api.keybit.ir/time/').
       then(res => res.json()).
       then(
@@ -43,11 +51,33 @@ class Header extends Component {
         </header>
         <div className='responsive-header'>
           <div className='main'>
-            <div className='menu-button'>
+            <div className='menu-button' onClick={this.btnMenuClick}>
               <button>
                 <img src={bmenu} />
               </button>
             </div>
+          </div>
+          <div className='navigation-menu'>
+            <nav>
+              <ul>
+                <li>
+                  <a>
+                    خانه
+                  </a>
+                </li>
+                <li>
+                  <span>ساعت :‌</span>
+                  <span>{fullTime}</span>
+                </li>
+                <li>
+                  <span>تاریخ :‌</span>
+                  <span>{fullDate}</span>
+                </li>
+                <li onClick={this.closeMenu}>
+                  بستن
+                </li>
+              </ul>
+            </nav>
           </div>
         </div>
     </div>

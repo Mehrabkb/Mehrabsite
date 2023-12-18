@@ -49,4 +49,29 @@ span.time{
     .main-header .responsive-header .main .menu-button button img{
         margin-right: 5px;
     }
+    .main-header .responsive-header .navigation-menu{
+        width: 100%;
+        height: 100vh;
+        z-index : 99999;
+        position: fixed;
+        top : 0 ;
+        transition: .5s;
+        right : -100% ;
+        background : #6096B4;
+    }
+    .main-header .responsive-header .navigation-menu ul{
+        width: 80%;
+        margin: 20% auto 0 auto;
+    }
+    .main-header .responsive-header .navigation-menu ul li{
+        padding : 15px;
+        font-size : 1.5rem;
+        text-align : center
+    }
+    .main-header .responsive-header .navigation-menu ul li:not(:last-child){
+      border-bottom : 1px solid #000;
+    }
+    .main-header .responsive-header .navigation-menu.show{
+        right : 0;
+    }
 }
