@@ -1,0 +1,17 @@
+.myskills-container{
+    width: 80%;
+    padding-top : 30px;
+    margin : 0 auto;
+}
+.myskills-container .myskill-item{
+    padding : 20px ;
+}
+.myskills-container .myskill-item h3{
+    text-align: left;
+    padding : 10px;
+}
+.myskills-container h2{
+    text-align: center;
+    font-size : 2rem;
+    padding : 10px 0;
+}
