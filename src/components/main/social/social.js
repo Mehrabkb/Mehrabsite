@@ -14,27 +14,27 @@ class Social extends Component{
                 </h2>
                 <ul className="list">
                     <li>
-                        <a href="http://www.instagram.com/mehrab.kordbacheh">
+                        <a href="http://www.instagram.com/mehrab.kordbacheh" target="_blank">
                             <img src={instagram} />
                         </a>
                     </li>
                     <li>
-                        <a href="http://telegram.me/mehrabkb">
+                        <a href="http://telegram.me/mehrabkb" target="_blank">
                             <img src={telegram} />
                         </a>
                     </li>
                     <li>
-                        <a href="whatsapp://send?abid=+989369849997&text=سلام یه سوال داشتم ">
+                        <a href="whatsapp://send?abid=+989369849997&text=سلام یه سوال داشتم " target="_blank">
                             <img src={whatsapp} />
                         </a>
                     </li>
                     <li>
-                        <a href="http://aparat.com/mehrabkb">
+                        <a href="http://aparat.com/mehrabkb" target="_blank">
                             <img src={aparat} />
                         </a>
                     </li>
                     <li>
-                        <a href="http://apart.com/mehrabkordbacheh2090">
+                        <a href="http://youtube.com/@mehrabkordbacheh2090" target="_blank">
                             <img src={youtube} />
                         </a>
                     </li>
