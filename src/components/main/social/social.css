@@ -16,3 +16,8 @@
     font-size : 2rem;
     padding : 15px 0 ;
 }
+@media (max-width: 768px){
+    .social-container ul li a img{
+        width: 40px;
+    }
+}

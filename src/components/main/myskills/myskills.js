@@ -9,31 +9,31 @@ class myskills extends Component{
                 <h2>توانایی های من </h2>
                 <div className="myskill-item">
                     <h3>PHP , MYSQL</h3>
-                    <ProgressBar completed={89} />;
+                    <ProgressBar completed={89} />
                 </div>
                 <div className="myskill-item">
                     <h3>HTML , CSS </h3>
-                    <ProgressBar completed={97} />;
+                    <ProgressBar completed={97} />
                 </div>
                 <div className="myskill-item">
                     <h3>JAVASCRIPT</h3>
-                    <ProgressBar completed={83} />;
+                    <ProgressBar completed={83} />
                 </div>
                 <div className="myskill-item">
                     <h3>PYTHON</h3>
-                    <ProgressBar completed={70} />;
+                    <ProgressBar completed={70} />
                 </div>
                 <div className="myskill-item">
                     <h3>Laravel</h3>
-                    <ProgressBar completed={70} />;
+                    <ProgressBar completed={70} />
                 </div>
                 <div className="myskill-item">
                     <h3>ًREACT</h3>
-                    <ProgressBar completed={65} />;
+                    <ProgressBar completed={65} />
                 </div>
                 <div className="myskill-item">
                     <h3>ANGULAR</h3>
-                    <ProgressBar completed={70} />;
+                    <ProgressBar completed={70} />
                 </div>
             </div>
         )

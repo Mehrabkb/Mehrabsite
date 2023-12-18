@@ -24,3 +24,29 @@
 span.time{
     padding : 5px;
 }
+.main-header .responsive-header{
+    display: none;
+}
+@media (max-width: 768px){
+    .main-header .header-desktop{
+        display: none;
+        height: 100%;
+    }
+    .main-header .responsive-header{
+        display: block;
+        height: 100%;
+
+    }
+    .main-header .responsive-header .main{
+        display: flex;
+        height: 100%;
+        align-items: center;
+    }
+    .main-header .responsive-header .main .menu-button button {
+        background : none;
+        border : none;
+    }
+    .main-header .responsive-header .main .menu-button button img{
+        margin-right: 5px;
+    }
+}
